@@ -6,6 +6,7 @@ module.exports = {
         const customers = await Customer.find();
 
         return response.json(customers); 
+        
     },
 };
 
